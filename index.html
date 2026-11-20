@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LUMIÈRE HAIR SALON｜架空の美容室</title>
+    <meta name="description" content="架空の美容室 LUMIÈRE HAIR SALON のサンプルサイトです。カット・カラー・パーマの料金、スタイリスト、店舗情報をご案内します。予約はデモで、送信されません。">
+    <meta name="theme-color" content="#f7f4ef">
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23f7f4ef' width='32' height='32'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Times New Roman,serif' font-size='18' fill='%23161513'%3EL%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">本文へスキップ</a>
+
+    <header class="header" id="header">
+      <a class="logo" href="#top">
+        <span class="logo-mark">LUMIÈRE</span>
+        <span class="logo-sub">Hair Salon · 架空</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="主要ナビゲーション">
+        <a href="#concept">コンセプト</a>
+        <a href="#menu">メニュー</a>
+        <a href="#stylists">スタイリスト</a>
+        <a href="#access">アクセス</a>
+        <a class="nav-reserve" href="#reserve">予約する（デモ）</a>
+      </nav>
+
+      <a class="reserve-link" href="#reserve">予約する</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span class="nav-toggle-lines" aria-hidden="true"></span>
+        <span class="sr-only">メニュー</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-label="メインビジュアル">
+        <img
+          class="hero-img"
+          src="images/hero.jpg"
+          alt="白い壁と大きな窓が並ぶ、モノクロームの美容室店内。ストックフォトであり、実在の店舗ではありません。"
+          width="2000"
+          height="1333"
+        >
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="hero-kicker">Omotesando · Fiction</p>
+          <h1>光をまとう、<br>静かな髪へ。</h1>
+          <p class="hero-lead">このウェブサイトは、架空の美容室「LUMIÈRE HAIR SALON」のデザインサンプルです。実在の店舗・予約窓口ではありません。</p>
+        </div>
+        <a class="hero-scroll" href="#concept">
+          <span>Scroll</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="section concept" id="concept">
+        <div class="section-head reveal">
+          <p class="index"><span>01</span> Concept</p>
+          <h2>削ぎ落とすほど、<br>髪は美しくなる。</h2>
+        </div>
+        <div class="concept-layout">
+          <figure class="concept-photo reveal">
+            <img
+              src="images/concept.jpg"
+              alt="明るい窓辺で、スタイリストが客人の髪をブローしている写真。ストックフォトです。"
+              width="1400"
+              height="933"
+            >
+            <figcaption>仕上がりは、翌日の朝にわかります。</figcaption>
+          </figure>
+          <div class="concept-copy reveal">
+            <p>髪は、足すほど綺麗になるわけではありません。LUMIÈREでは、骨格と髪質、そして朝の支度にかけられる時間から、残すラインを決めていきます。</p>
+            <p>韓国のサロンで磨かれたミニマルな質感を手がかりに、色は肌のトーンへ静かに寄せ、パーマは輪郭をやわらかく支える程度にとどめます。自宅で、自分の手で再現できることも大切にしています。</p>
+            <ul class="notes">
+              <li>
+                <span>01</span>
+                <div>
+                  <strong>カウンセリング</strong>
+                  <p>初回は30分。なりたい印象と、避けたい手入れを言葉にします。</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong>薬剤の選定</strong>
+                  <p>履歴を見て、明るさよりもツヤと持ちを優先します。</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong>日常の再現</strong>
+                  <p>帰る前に、翌朝そのまま使えるセットを一緒に確認します。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="styles" aria-label="スタイルイメージ">
+        <div class="styles-head reveal">
+          <p class="index"><span>Style</span></p>
+          <h2>光の残り方で選ぶ。</h2>
+          <p>すべてイメージ写真です。当サロンの施術例ではありません。</p>
+        </div>
+        <div class="styles-grid">
+          <figure class="reveal">
+            <img src="images/style-wave.jpg" alt="後ろ姿の長いウェーブヘア。ストックフォトです。" width="1200" height="800">
+            <figcaption>Wave · やわらかい動き</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="images/style-blonde.jpg" alt="明るい髪をかきあげる人物のポートレート。ストックフォトです。" width="1000" height="1500">
+            <figcaption>Light · 透明感</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img src="images/tools.jpg" alt="白い背景に、ハサミやブラシなどの美容道具を掲げた手元。ストックフォトです。" width="1400" height="933">
+            <figcaption>Tools · 道具の静けさ</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section menu" id="menu">
+        <div class="section-head reveal">
+          <p class="index"><span>02</span> Menu</p>
+          <h2>メニュー</h2>
+          <p class="lede">表示は税込のサンプル料金です。髪の長さや薬剤により前後します。このサイトでは会計は発生しません。</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <header>
+              <p class="en">Cut</p>
+              <h3>カット</h3>
+            </header>
+            <ul>
+              <li><span>カット</span><span class="price">¥7,700</span></li>
+              <li><span>カット＋シャンプーブロー</span><span class="price">¥9,900</span></li>
+              <li><span>前髪カット</span><span class="price">¥2,200</span></li>
+              <li><span>キッズカット（小学生以下）</span><span class="price">¥4,400</span></li>
+            </ul>
+          </article>
+          <article class="menu-card reveal">
+            <header>
+              <p class="en">Color</p>
+              <h3>カラー</h3>
+            </header>
+            <ul>
+              <li><span>リタッチ</span><span class="price">¥8,800</span></li>
+              <li><span>フルカラー</span><span class="price">¥12,100〜</span></li>
+              <li><span>ハイライト / バレイヤージュ</span><span class="price">¥17,600〜</span></li>
+              <li><span>ブリーチオンカラー</span><span class="price">¥19,800〜</span></li>
+            </ul>
+          </article>
+          <article class="menu-card reveal">
+            <header>
+              <p class="en">Perm</p>
+              <h3>パーマ</h3>
+            </header>
+            <ul>
+              <li><span>コスメパーマ</span><span class="price">¥14,300〜</span></li>
+              <li><span>デジタルパーマ</span><span class="price">¥19,800〜</span></li>
+              <li><span>ストレートパーマ</span><span class="price">¥20,900〜</span></li>
+              <li><span>酸熱トリートメント</span><span class="price">¥13,200〜</span></li>
+            </ul>
+          </article>
+        </div>
+        <p class="menu-note reveal">カット料金にシャンプーは含まれません。カラー・パーマはカットと組み合わせる場合、別途カット料金をいただきます。指名料 ¥1,100（税込・サンプル）。</p>
+      </section>
+
+      <section class="band" aria-label="カラーのイメージ">
+        <img src="images/style-color.jpg" alt="ピンク色の髪が広がる、横顔のスタイル写真。ストックフォトです。" width="1600" height="1067">
+        <div class="band-shade" aria-hidden="true"></div>
+        <div class="band-copy reveal">
+          <p class="index"><span>Color</span></p>
+          <p>色は主張ではなく、肌へ戻る光。</p>
+        </div>
+      </section>
+
+      <section class="section stylists" id="stylists">
+        <div class="section-head reveal">
+          <p class="index"><span>03</span> Stylist</p>
+          <h2>スタイリスト</h2>
+          <p class="lede">氏名・経歴・肖像はすべて架空です。写真は Unsplash のストックフォトで、実在のスタッフではありません。</p>
+        </div>
+        <div class="stylist-grid">
+          <article class="stylist reveal">
+            <div class="stylist-photo">
+              <img src="images/stylist-rin.jpg" alt="短い黒髪の人物を青い光で撮った肖像。架空のスタイリスト佐藤凛のイメージです。" width="1000" height="1250">
+            </div>
+            <p class="en">Director</p>
+            <h3>佐藤 凛 <span>Rin Sato</span></h3>
+            <p>表参道のサロンで12年（架空の経歴）。骨格に沿うショートと、光を残すグレージュを得意としています。</p>
+          </article>
+          <article class="stylist reveal">
+            <div class="stylist-photo">
+              <img src="images/stylist-aoi.jpg" alt="やわらかな光の中の人物の肖像。架空のスタイリスト高橋葵のイメージです。" width="1000" height="1250">
+            </div>
+            <p class="en">Top Stylist</p>
+            <h3>高橋 葵 <span>Aoi Takahashi</span></h3>
+            <p>透明感のあるカラーと、朝が楽になるロングを提案します。薬剤の履歴を丁寧に聞くことを大切にしています。</p>
+          </article>
+          <article class="stylist reveal">
+            <div class="stylist-photo">
+              <img src="images/stylist-ren.jpg" alt="暗い背景の人物の肖像。架空のスタイリスト中村蓮のイメージです。" width="1000" height="1250">
+            </div>
+            <p class="en">Stylist</p>
+            <h3>中村 蓮 <span>Ren Nakamura</span></h3>
+            <p>メンズカットとパーマを中心に、清潔感のあるシルエットをつくります。初めてのパーマもご相談ください。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section access" id="access">
+        <div class="section-head reveal">
+          <p class="index"><span>04</span> Access</p>
+          <h2>店舗情報</h2>
+          <p class="lede">所在地も営業時間も架空の設定です。地図アプリでは検索できません。</p>
+        </div>
+        <div class="access-layout">
+          <div class="access-card reveal">
+            <p class="en">Salon</p>
+            <h3>LUMIÈRE HAIR SALON</h3>
+            <address>
+              〒000-0000<br>
+              東京都渋谷区神宮前0-0-0<br>
+              ルミエールビル 2F
+            </address>
+            <p class="fine">番地「0-0-0」は実在しません。この店舗は架空です。</p>
+            <dl class="facts">
+              <div>
+                <dt>電話</dt>
+                <dd>03-0000-0000（デモ番号）</dd>
+              </div>
+              <div>
+                <dt>席数</dt>
+                <dd>セット面 4席 · 全席予約制</dd>
+              </div>
+              <div>
+                <dt>支払い</dt>
+                <dd>現金 / クレジットカード（サンプル表記）</dd>
+              </div>
+              <div>
+                <dt>最寄り</dt>
+                <dd>東京メトロ銀座線・半蔵門線・千代田線「表参道」駅 A2 出口より徒歩5分（架空の経路）</dd>
+              </div>
+              <div>
+                <dt>駐車場</dt>
+                <dd>なし。近隣のコインパーキングをご利用ください（架空の案内）。</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="access-side reveal">
+            <div class="hours">
+              <p class="en">Hours</p>
+              <h3>営業時間</h3>
+              <table>
+                <caption class="sr-only">営業時間</caption>
+                <tbody>
+                  <tr>
+                    <th scope="row">火曜 – 金曜</th>
+                    <td>11:00 – 20:00<span>カット最終 19:00</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">土曜・日曜・祝日</th>
+                    <td>10:00 – 19:00<span>カット最終 18:00</span></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">月曜</th>
+                    <td>定休<span>祝日が月曜のときも休業</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="guide">
+              <p class="en">Guide</p>
+              <h3>案内図</h3>
+              <div class="guide-board" role="img" aria-label="架空の案内図。実在の地図ではありません。">
+                <span class="road road-h">表参道（架空）</span>
+                <span class="road road-v">連絡通路</span>
+                <span class="pin"><b>L</b><small>2F</small></span>
+              </div>
+              <p class="fine">この図はデザイン上のイメージです。実在の交差点や建物を示していません。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reserve" id="reserve">
+        <div class="reserve-layout">
+          <div class="reserve-copy reveal">
+            <p class="index"><span>05</span> Reserve</p>
+            <h2>ご予約</h2>
+            <p>来店のご希望を入力できます。送信ボタンを押しても予約は成立せず、内容はどこにも保存されません。サーバーへの送信は行わない、画面上だけのデモです。</p>
+            <ul class="reserve-points">
+              <li>実際の予約処理は行いません</li>
+              <li>電話番号 03-0000-0000 にもつながりません</li>
+              <li>入力内容は送信されません</li>
+            </ul>
+          </div>
+
+          <div class="reserve-panel reveal">
+            <form id="reserve-form" action="#" method="post" novalidate>
+              <p class="demo-flag">デモ用フォーム · 送信されません</p>
+              <div class="fields">
+                <label>
+                  <span>お名前</span>
+                  <input type="text" name="name" autocomplete="name" required maxlength="40" placeholder="山田 花">
+                </label>
+                <label>
+                  <span>電話番号</span>
+                  <input type="tel" name="tel" autocomplete="tel" required inputmode="tel" placeholder="090-0000-0000" pattern="[0-9０-９+\-\s]{8,16}">
+                </label>
+                <label>
+                  <span>ご希望メニュー</span>
+                  <select name="menu" required>
+                    <option value="">選択してください</option>
+                    <option>カット</option>
+                    <option>カラー</option>
+                    <option>パーマ</option>
+                    <option>カット＋カラー</option>
+                    <option>トリートメント</option>
+                    <option>相談して決めたい</option>
+                  </select>
+                </label>
+                <label>
+                  <span>ご希望日</span>
+                  <input type="date" name="date" required>
+                </label>
+                <label>
+                  <span>ご希望時間</span>
+                  <select name="time" required>
+                    <option value="">選択してください</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>12:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                  </select>
+                </label>
+                <label>
+                  <span>担当の希望</span>
+                  <select name="stylist">
+                    <option value="指名なし">指名なし</option>
+                    <option>佐藤 凛（架空）</option>
+                    <option>高橋 葵（架空）</option>
+                    <option>中村 蓮（架空）</option>
+                  </select>
+                </label>
+                <label class="wide">
+                  <span>ご要望（任意）</span>
+                  <textarea name="note" rows="4" maxlength="400" placeholder="髪の長さや、避けたい仕上がりがあれば"></textarea>
+                </label>
+                <label class="check wide">
+                  <input type="checkbox" name="agree" required>
+                  <span>これはデモであり、予約は成立しないことを理解しました。</span>
+                </label>
+              </div>
+              <p class="form-error" id="form-error" role="alert" hidden>未入力の項目があります。赤字の案内に沿って入力してください。</p>
+              <button class="submit" type="submit">デモとして確認する</button>
+              <p class="form-hint">このボタンを押しても、予約メールは送られず、店舗にも連絡はいきません。</p>
+            </form>
+
+            <div class="form-success" id="form-success" tabindex="-1" hidden>
+              <p class="en">Not sent</p>
+              <h3>予約は成立していません</h3>
+              <p>入力内容は保存されておらず、サーバーへも送信していません。このメッセージは、ボタンの動作を確認するためのデモです。</p>
+              <button type="button" id="form-reset">入力に戻る</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div>
+          <p class="logo-mark">LUMIÈRE</p>
+          <p class="footer-brand">LUMIÈRE HAIR SALON は架空の美容室です。実在のサロン、スタッフ、予約窓口とは関係ありません。</p>
+        </div>
+        <nav aria-label="フッターナビゲーション">
+          <a href="#concept">コンセプト</a>
+          <a href="#menu">メニュー</a>
+          <a href="#stylists">スタイリスト</a>
+          <a href="#access">アクセス</a>
+          <a href="#reserve">予約（デモ）</a>
+        </nav>
+        <div>
+          <p class="en">Visit</p>
+          <p>〒000-0000<br>東京都渋谷区神宮前0-0-0<br>ルミエールビル 2F（架空）</p>
+        </div>
+      </div>
+      <div class="credits">
+        <p>写真は <a href="https://unsplash.com/license" rel="noopener noreferrer">Unsplash License</a> の素材です。商用・非商用を問わず利用できる公開条件のストックフォトで、このサロンの店内やスタッフを撮影したものではありません。</p>
+        <ul>
+          <li>店内 <a href="https://unsplash.com/photos/1560066984-138dadb4c035" rel="noopener noreferrer">photo-1560066984-138dadb4c035</a></li>
+          <li>施術 <a href="https://unsplash.com/photos/1562322140-8baeececf3df" rel="noopener noreferrer">photo-1562322140-8baeececf3df</a></li>
+          <li>ウェーブ <a href="https://unsplash.com/photos/1522337360788-8b13dee7a37e" rel="noopener noreferrer">photo-1522337360788-8b13dee7a37e</a></li>
+          <li>ポートレート <a href="https://unsplash.com/photos/1524504388940-b1c1722653e1" rel="noopener noreferrer">photo-1524504388940-b1c1722653e1</a></li>
+          <li>道具 <a href="https://unsplash.com/photos/1595475884562-073c30d45670" rel="noopener noreferrer">photo-1595475884562-073c30d45670</a></li>
+          <li>カラー <a href="https://unsplash.com/photos/1470259078422-826894b933aa" rel="noopener noreferrer">photo-1470259078422-826894b933aa</a></li>
+          <li>肖像 <a href="https://unsplash.com/photos/1534528741775-53994a69daeb" rel="noopener noreferrer">photo-1534528741775-53994a69daeb</a></li>
+          <li>肖像 <a href="https://unsplash.com/photos/1544005313-94ddf0286df2" rel="noopener noreferrer">photo-1544005313-94ddf0286df2</a></li>
+          <li>肖像 <a href="https://unsplash.com/photos/1506794778202-cad84cf45f1d" rel="noopener noreferrer">photo-1506794778202-cad84cf45f1d</a></li>
+        </ul>
+      </div>
+      <p class="copyright">© <span id="year">2026</span> LUMIÈRE HAIR SALON（架空）</p>
+    </footer>
+  </body>
+</html>
